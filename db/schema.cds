@@ -9,7 +9,7 @@ entity Inhabitants : managed {
   lastName : String;
   telephone : Integer;
   country : Country;
-  mail  : String;
+  email  : String;
   place : String;
   postcode : Integer;
   street : String;
