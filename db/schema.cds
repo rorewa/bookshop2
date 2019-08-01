@@ -2,6 +2,7 @@
 namespace my.adressbook;
 using { Country, managed } from '@sap/cds/common';
 
+
 entity Inhabitants : managed {
   key ID  : UUID;
   firstName: String;
@@ -9,4 +10,8 @@ entity Inhabitants : managed {
   telephone : Integer;
   country : Country;
   mail  : String;
+  place : String;
+  postcode : Integer;
+  street : String;
+  housenumber : Integer;
 }
