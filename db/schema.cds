@@ -1,5 +1,5 @@
 
-namespace my.bookshop;
+namespace my.adressbook;
 using { Country, managed } from '@sap/cds/common';
 
 entity Books {
@@ -18,6 +18,14 @@ entity Authors {
 entity Orders : managed {
   key ID  : UUID;
   book    : Association to Books;
+  country : Country;
+  amount  : Integer;
+}
+
+entity Inhabitants : managed {
+  key ID  : UUID;
+  firstName: String;
+  lastName : String;
   country : Country;
   amount  : Integer;
 }
