@@ -15,12 +15,7 @@ entity Authors {
   books  : Association to many Books on books.author = $self;
 }
 
-entity Orders : managed {
-  key ID  : UUID;
-  book    : Association to Books;
-  country : Country;
-  amount  : Integer;
-}
+
 
 entity Inhabitants : managed {
   key ID  : UUID;
