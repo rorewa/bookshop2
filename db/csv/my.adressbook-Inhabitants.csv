@@ -1,0 +1,5 @@
+ID;firstName;lastName;telephone;country;email;place;postcode;street;housenumber
+101;Emily;Brontë;12345;Germany;emily.bronte@adressbook.com;adb;54637;Brontestr.;12
+107;Charlotte;Brontë;67890;Germany;charlotte.bronte@adressbook.com;adb;54637;Brontestr.;12
+150;Edgar;Poe;24680;Germany;edgar.poe@adressbook.com;adb;54637;Poestr.;34
+170;Richard;Carpenter;13579;Germany;richard.carpenter@adressbook.com;adb;54637;Carpenterstr.;27
