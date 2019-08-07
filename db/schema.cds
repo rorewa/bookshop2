@@ -4,7 +4,7 @@ namespace my.adressbook;
 
 
 entity Inhabitants /*: managed*/ {
-  key ID  : UUID;
+  key ID  : String;
   firstName: String;
   lastName : String;
   telephone : Integer;
